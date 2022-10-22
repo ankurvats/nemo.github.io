@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>by nemo</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <h3>a cute note for a cutie :)</h3>
+    <div class="envelope-wrapper">
+        <div class="envelope">
+            <div class="front flap"></div>
+            <div class="front pocket"></div>
+            <div class="letter">
+                <h4>Dear Mahecky</h4>
+                <p>You are the cutest thing ever, I love your smile sooo much and your face and your hair 
+                    and your ability to make me happy. It all makes you the most amazing girlfriend of all time baby!
+                </p>
+                </div>
+            </div>
+        </div>
+        <div class="heart animate-topright"></div>
+        <div class="heart animate-bottomright"></div>
+        <div class="heart animate-topleft"></div>
+        <div class="heart animate-bottomleft"></div>
+        <div class="heart animate-up"></div>
+        <div class="heart animate-down"></div>
+        <div class="heart animate-left"></div>
+        <div class="heart animate-right"></div>
+    </div>
+    <div class="creatures">
+        <img src="creatures.png">
+    </div>
+    
+    <script>
+        const envelope = document.querySelector('.envelope');
+        envelope.addEventListener('click', () => {
+             envelope.classList.toggle('khul');
+        });
+    </script>
+</body>
+</html>
